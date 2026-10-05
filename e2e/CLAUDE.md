@@ -18,4 +18,4 @@ npm test                 # against running dev stack — only if DB has just the
 - Against a dev DB with other repos, flows 02/04/05 land on the wrong repo → use the hermetic runner.
 
 ## Read when relevant
-`README.md` (flow format, env knobs, coverage table) · `insights.md`
+`README.md` (flow format, env knobs, coverage table) · `INSIGHTS.md`

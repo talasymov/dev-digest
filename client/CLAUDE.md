@@ -31,4 +31,4 @@ pnpm typecheck
   changes, update both.
 
 ## Read when relevant
-`README.md` (route map → API) · `src/vendor/ui/README.md` · `docs/` · `specs/` · `insights.md`
+`README.md` (route map → API) · `src/vendor/ui/README.md` · `docs/` · `specs/` · `INSIGHTS.md`

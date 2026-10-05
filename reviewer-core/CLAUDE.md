@@ -27,4 +27,4 @@ npm run typecheck    # this IS the build — the package never emits JS
   typecheck and CI `server-unit`.
 
 ## Read when relevant
-`README.md` (pipeline, public API) · `docs/` · `specs/` · `insights.md`
+`README.md` (pipeline, public API) · `docs/` · `specs/` · `INSIGHTS.md`

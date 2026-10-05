@@ -1,8 +1,8 @@
 ---
-description: Promote proven entries from insights.md into the matching CLAUDE.md
+description: Promote proven entries from INSIGHTS.md into the matching CLAUDE.md
 argument-hint: [package]
 ---
-Review `insights.md` for `$ARGUMENTS` (empty → root `insights.md`).
+Review `INSIGHTS.md` for `$ARGUMENTS` (empty → root `INSIGHTS.md`).
 
 For each entry not yet marked **Promoted**:
 1. Apply the test: "if this line were in CLAUDE.md, would Claude stop making this mistake?"

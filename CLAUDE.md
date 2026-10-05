@@ -46,8 +46,14 @@ Local-first AI PR review: import PR → `reviewer-core` (diff + repo map → LLM
 - `docker compose down -v` — deletes the `devdigest_pgdata` volume with all imported repos.
 - `server/clones/` — runtime data (git-ignored).
 
+## Session protocol
+- **Before working in a module, read its `INSIGHTS.md`** (and the root one for cross-package work).
+  Treat it as high-confidence guidance unless I say otherwise. Confirm you read it by naming the
+  3 entries most relevant to the task (or saying it is empty) before the first change.
+- **At the end of the session, run `/engineering-insights`** to append what was learned. Do not skip it;
+  if nothing non-obvious came up, say so instead of inventing entries.
+
 ## Read when relevant (not auto-loaded)
 - Architecture & review flow: `README.md` · test strategy: `TESTING.md`
 - Agent system prompts & model choice: `docs/agent-prompts/README.md`
-- Before a non-trivial change: the package's `insights.md`
 - New feature: write `specs/<id>-<name>.md` from `specs/_template.md` first (`/new-spec`)
