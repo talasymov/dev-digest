@@ -38,4 +38,4 @@ pnpm db:migrate && pnpm db:seed
 - Global rate limit 120/min is off only when `NODE_ENV=test`.
 
 ## Read when relevant
-`README.md` (API map, env vars, review context) · `../TESTING.md` · `docs/` · `specs/` · `insights.md`
+`README.md` (API map, env vars, review context) · `../TESTING.md` · `docs/` · `specs/` · `INSIGHTS.md`
